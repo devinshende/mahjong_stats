@@ -42,6 +42,10 @@ for p in players:
 	print(f"Total Points: {points}, Chicken hands: {chicken}")
 	print('\n')
 
-# print(repr(df['Devin'].mean()))
+
+for p in players:
+	print("Player: ",p)
+	print(797-df[p].isna().sum())
+
 
 
